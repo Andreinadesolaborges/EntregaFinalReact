@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 4,
+        "nombreCategoria": "Piedras",
+        "nombre": "Piedra de Amatista",
+        "descripcion": "Una amatista es una piedra preciosa de color violeta que pertenece a la familia de minerales de cuarzo.",
+        "precio": 5000,
+        "stock": 30,
+        "img": "amatista.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": 4,
+        "nombreCategoria": "Piedras",
+        "nombre": "Piedra de Obsidiana",
+        "descripcion": "La obsidiana es un vidrio volcánico natural formado a partir de lava enfriada rápidamente. Es un tipo de roca ígnea, caracterizada por su superficie lisa, bordes afilados y una textura vítrea.",
+        "precio": 7000,
+        "stock": 20,
+        "img": "obsidiana.png"
+    },
+    {
+        "id": 3,
+        "idCategoria": 6,
+        "nombreCategoria": "Velas",
+        "nombre": "Vela Simple",
+        "descripcion": "Una vela es un objeto de forma cilíndrica o cónica hecho de cera, sebo u otro material inflamable, con una mecha central que se enciende para producir luz y calor.",
+        "precio": 4000,
+        "stock": 100,
+        "img": "vela.png"
+    },
+    {
+        "id": 4,
+        "idCategoria": 5,
+        "nombreCategoria": "Tarot",
+        "nombre": "Mazo de tarot",
+        "descripcion": "Una baraja de tarot es un conjunto de 78 cartas que se utilizan para la adivinación, la autorreflexión y la meditación. La baraja generalmente se divide en dos partes: los Arcanos Mayores y los Arcanos Menores.",
+        "precio": 7000,
+        "stock": 20,
+        "img": "tarot.png"
+    },
+    {
+        "id": 5,
+        "idCategoria": 1,
+        "nombreCategoria": "Aromaterapia",
+        "nombre": "Aceite Lavanda",
+        "descripcion": " La lavanda es un excelente remedio contra el estrés y la ansiedad asociados a trastornos del sueño como el insomnio.",
+        "precio": 10000,
+        "stock": 12,
+        "img": "aceitelavanda.png"
+    },
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "nombreCategoria": "Sahumerios",
+        "nombre": "Palo Santo",
+        "descripcion": "El incienso de palo santo es una madera sagrada originaria de Sudamérica. También se conoce como 'madera sagrada' y ha sido utilizada durante siglos por chamanes y curanderos por sus propiedades curativas.",
+        "precio": 2500,
+        "stock": 30,
+        "img": "palosanto.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": 3,
+        "nombreCategoria": "Libros",
+        "nombre": "Libro de hechizos",
+        "descripcion": "Este es un libro de brujería. Trata de la historia de las brujas, los hechizos y las pociones.",
+        "precio": 6000,
+        "stock": 10,
+        "img": "libro.png"
+    },
+
+    {
+        "id": 8,
+        "idCategoria": 4,
+        "nombreCategoria": "Piedras",
+        "nombre": "Piedra de Jade",
+        "descripcion": "El jade es una piedra preciosa de la familia del jade, que incluye la nefrita y la jadeíta. Se considera una piedra semipreciosa, lo que significa que puede utilizarse en joyería, pero no es tan valiosa como los diamantes o los rubíes.",
+        "precio": 5000,
+        "stock": 18,
+        "img": "jade.png"
+    }
+]
+
+
+
