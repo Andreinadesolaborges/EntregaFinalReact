@@ -7,7 +7,7 @@
         "descripcion": "Una amatista es una piedra preciosa de color violeta que pertenece a la familia de minerales de cuarzo.",
         "precio": 5000,
         "stock": 30,
-        "img": "amatista.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/amatista.png?alt=media&token=be48dfac-8675-4ff7-bd36-8fe273fea685"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "descripcion": "La obsidiana es un vidrio volcánico natural formado a partir de lava enfriada rápidamente. Es un tipo de roca ígnea, caracterizada por su superficie lisa, bordes afilados y una textura vítrea.",
         "precio": 7000,
         "stock": 20,
-        "img": "obsidiana.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/obsidiana.png?alt=media&token=8fc691b7-0bea-4fcd-8492-5f3a709324a9"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "descripcion": "Una vela es un objeto de forma cilíndrica o cónica hecho de cera, sebo u otro material inflamable, con una mecha central que se enciende para producir luz y calor.",
         "precio": 4000,
         "stock": 100,
-        "img": "vela.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/vela.png?alt=media&token=48b295a2-56d1-46d5-a55a-217aec98c1cd"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "descripcion": "Una baraja de tarot es un conjunto de 78 cartas que se utilizan para la adivinación, la autorreflexión y la meditación. La baraja generalmente se divide en dos partes: los Arcanos Mayores y los Arcanos Menores.",
         "precio": 7000,
         "stock": 20,
-        "img": "tarot.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/tarot.png?alt=media&token=cfdbe5a8-bb3e-4394-bc2c-b6cef80f1240"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "descripcion": " La lavanda es un excelente remedio contra el estrés y la ansiedad asociados a trastornos del sueño como el insomnio.",
         "precio": 10000,
         "stock": 12,
-        "img": "aceitelavanda.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/aceitelavanda.png?alt=media&token=d51b9755-2a92-4c1d-b104-89adb4c8de89"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "descripcion": "El incienso de palo santo es una madera sagrada originaria de Sudamérica. También se conoce como 'madera sagrada' y ha sido utilizada durante siglos por chamanes y curanderos por sus propiedades curativas.",
         "precio": 2500,
         "stock": 30,
-        "img": "palosanto.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/palosanto.png?alt=media&token=123902fb-f4b5-4f1b-b33e-aab4354c45a8"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "descripcion": "Este es un libro de brujería. Trata de la historia de las brujas, los hechizos y las pociones.",
         "precio": 6000,
         "stock": 10,
-        "img": "libro.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/libro.png?alt=media&token=fd2c2702-caa4-4f50-a9e6-cdc410a707c6"
     },
 
     {
@@ -78,7 +78,7 @@
         "descripcion": "El jade es una piedra preciosa de la familia del jade, que incluye la nefrita y la jadeíta. Se considera una piedra semipreciosa, lo que significa que puede utilizarse en joyería, pero no es tan valiosa como los diamantes o los rubíes.",
         "precio": 5000,
         "stock": 18,
-        "img": "jade.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/jade.png?alt=media&token=1ba65f3b-7e2e-45c3-ae7e-d71effe4b31a"
     }
 ]
 

@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    min-height: 100vh;
+}
+
 .logoText {
     margin-left: 0.5em;
 }
@@ -21,6 +25,10 @@ html {
 
 .card-title {
     height: 45px;
+}
+
+.card {
+    background-color: white;
 }
 
 span {
@@ -47,9 +55,12 @@ span.navbar-toggler-icon {
     background-image: url(./img/hamburger.svg);
 }
 
+span.navbar-toggler-icon-dark {
+    background-image: url(./img/hamburger-white.svg);
+}
+
 .navbar-toggler:focus {
     box-shadow: none;
-
 }
 
 /*Saturate*/
@@ -79,6 +90,24 @@ span.navbar-toggler-icon {
 }
 
 .hoverLine:hover {
+    background-size: 40% .1em;
+    background-position: 10% 100%, 90% 100%;
+}
+
+/*Hover text 1*/
+.hoverLineDark {
+    --c: linear-gradient(rgb(255, 255, 255) 0 0);
+    /* update the color here */
+
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: .3em .1em;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition: .4s ease-in-out, background-size .4s .3s ease-in-out;
+}
+
+.hoverLineDark:hover {
     background-size: 40% .1em;
     background-position: 10% 100%, 90% 100%;
 }
@@ -148,7 +177,7 @@ span.navbar-toggler-icon {
 }
 
 .pad-btn {
-    padding: 20px 24px;
+    padding: 20px 20px;
 }
 
 .pad-btn-counter {
@@ -177,6 +206,28 @@ span.navbar-toggler-icon {
 
 .extra-margin-hero {
 margin-bottom: 2rem !important;
+}
+
+.darkMode {
+    background-color: black;
+    color: gainsboro;
+    min-height: 100vh;
+    
+}
+
+.cartContainer {
+    margin-top: 3%;
+    margin-left: 26,5%;
+}
+
+.divButtons button {
+    margin:1em;
+    min-width: 250px;
+}
+
+.cardCart {
+    max-width: 640px;
+    padding: 0px;
 }
 
 
