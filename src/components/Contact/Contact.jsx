@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast, Toast } from 'react-toastify';
 import { useDarkModeContext } from '../../context/DarkModeContext';
+import { createConsultaContact } from '../../firebase/firebase';
 
 export const Contact = () => {
     const datosFormulario = React.useRef();
@@ -13,10 +14,11 @@ export const Contact = () => {
         e.preventDefault();
         const datForm = new FormData(datosFormulario.current);
         const contacto = Object.fromEntries(datForm);
-        console.log(contacto);
-        e.target.reset();
-        toast.success("🧚 Tu consulta fue enviada");
-        navigate("/");
+        createConsultaContact(contacto, new Date().toISOString()).then( contacto => { e.target.reset();
+            toast.success("🧚 Tu consulta fue enviada");
+            navigate("/");} 
+        )
+       
     }
 
     return (
@@ -42,7 +44,7 @@ export const Contact = () => {
                         <label htmlFor="textarea" className="form-label">Mensaje</label>
                         <textarea className="form-control" name="textarea" rows={3} defaultValue={""} required />
                     </div>
-                    <button type="submit" className="btn btn-primary">Enviar</button>
+                    <button type="submit" className={`btn ${darkMode ? 'btn-secondary' : 'btn-primary'} zoomIn`}>Enviar</button>
                 </form>
             </div>
         </div>

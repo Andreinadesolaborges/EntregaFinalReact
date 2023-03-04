@@ -10,7 +10,7 @@ const Itemcount = ({valInicial, stock, onAdd}) => {
 
     const agregarCarrito = () => {
         onAdd(contador);
-        toast.success('🦄 Ha sido agregado');
+        toast.success('🦄 El producto ha sido agregado');
     };
     return (
         <>
@@ -19,7 +19,7 @@ const Itemcount = ({valInicial, stock, onAdd}) => {
             <span className="mx-1">{contador}</span>
             <button className={`btn ${darkMode ? 'btn-black' : 'btn-secondary'} pad-btn-counter`} onClick={()=>sumar()}>+</button>
             </div>
-            <button className={`btn ${darkMode ? 'btn-secondary' : 'btn-primary'} zoomIn d-block mx-auto`} onClick={()=>agregarCarrito()}>Comprar</button>
+            <button className={`btn ${darkMode ? 'btn-secondary' : 'btn-primary'} zoomIn d-block mx-auto`} onClick={()=>agregarCarrito()}>Agregar al carrito</button>
         </>
     );
 }

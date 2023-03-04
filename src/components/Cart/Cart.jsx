@@ -1,12 +1,11 @@
 import { useDarkModeContext } from "../../context/DarkModeContext";
 import { Link } from "react-router-dom";
 import { ItemList } from "../ItemList/ItemList";
+import { useCarritoContext } from "../../context/CarritoContext";
 export const Cart = () => {
 
     const { darkMode } = useDarkModeContext();
-    const carrito = [{ nombre: "Arroz", img: 'https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/amatista.png?alt=media&token=be48dfac-8675-4ff7-bd36-8fe273fea685', modelo: "1", precio: 4000, cantidad: 5 },
-    { nombre: "Fideos", modelo: "2", img: 'https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/amatista.png?alt=media&token=be48dfac-8675-4ff7-bd36-8fe273fea685', precio: 3000, cantidad: 2 },
-    { nombre: "Papas", modelo: "3", img: 'https://firebasestorage.googleapis.com/v0/b/proyecto-react-75934.appspot.com/o/amatista.png?alt=media&token=be48dfac-8675-4ff7-bd36-8fe273fea685', precio: 5000, cantidad: 3 }]
+    const {carrito, totalPrice, emptyCart} = useCarritoContext ();
 
     return (
         <>
@@ -33,9 +32,9 @@ export const Cart = () => {
                                 <ItemList products={carrito} plantilla={'itemCart'} />
                             }
                             <div className="divButtons text-center">
-                                <h3 className={`${darkMode ? 'text-light' : 'text-dark'}`}>Resumen de la compra : precio total</h3>
+                                <h3 className={`${darkMode ? 'text-light' : 'text-dark'}`}>Resumen de la compra : ${new Intl.NumberFormat('de-DE').format(totalPrice())}</h3>
                                 <Link className="nav-link" to={'/'}><button className={`btn ${darkMode ? 'btn-secondary' : 'btn-primary'} zoomIn d-block mx-auto`}>Continuar comprando</button></Link>
-                                <button className={`btn btn-danger zoomIn d-block mx-auto`}>Vaciar carrito</button>
+                                <button onClick={()=> emptyCart()} className={`btn btn-danger zoomIn d-block mx-auto`}>Vaciar carrito</button>
                                 <Link className="nav-link" to={'/checkout'}><button className={`btn btn-success zoomIn d-block mx-auto`}>🪄 Finalizar compra</button></Link>
                             </div>
                         </div>

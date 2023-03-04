@@ -27,6 +27,14 @@ body{
     height: 45px;
 }
 
+.card-title-cart {
+    height: 35px;
+    font-size: 1.2em;
+}
+
+.card-text-cart {
+    margin-bottom: 0.3em;
+}
 .card {
     background-color: white;
 }
@@ -41,6 +49,10 @@ span {
 
 a {
     font-size: 12px;
+}
+
+.noUnderline{
+    text-decoration: none;
 }
 
 .card-info {
